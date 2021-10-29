@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    margin-top: 0;
+}
+.titulo
+{
+    margin-top: 0;
+    color: cornflowerblue;    
+}
+fieldset{
+    
+    width: 80%;
+    background-color: white;
+    margin: 0px auto;    
+}
+.btn{
+    margin: 0px auto;
+}
+.button1{    
+    background:rgb(48, 111, 206);
+    color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 6px 10px;
+    text-decoration: none; 
+    margin: 0px auto;
+}
+.button2
+{
+    background:rgb(48, 111, 206);
+    color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 6px 10px;
+    text-decoration: none;   
+    margin: 0px auto;
+}
+.button1 :hover{
+background: #666 url('botao_hover.gif') no-repeat 
+center center;
+color:#999;
+}
+.txtarea{
+    width: 80%;
+}

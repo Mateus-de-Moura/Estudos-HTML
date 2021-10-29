@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1 class="titulo" align="center">Formulario  de cadastro</h1>
+    <fieldset>
+        <Legend > Dados Pessoais</Legend>
+        <label>Nome:<input type="text" name="nome"><br><br></label>
+        <label>Endereço:<input type="text" name="endereco"><br><br></label>
+        <label>Cidade:<input type="text" name="cidade"><br><br></label>
+        <label>Sexo:<input type="radio">Masculino <input type="radio">Feminino</label>
+        <label><br><br>Estado</label>
+        <select name="Estado">
+            <option selected>Selecione</option>
+            <option value="Sp">São Paulo</option>
+            <option value="BA">Bahia</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PE">Pernambuco</option>
+        </select>                  
+    </fieldset>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label>Natureza do Cargo<br></label>
+        <input type="radio">Gerencia <input type="radio">Fianceiro <input type="radio">Recpção <input type="radio">Administrativo
+        <input type="radio">Juridico <br><br>
+        <label>Área de Interesse</label><br>
+        <input type="checkbox">Computação <input type="checkbox">Biologia <input type="checkbox">Meio Ambiente
+        <input type="checkbox">Engenharia <input type="checkbox">Historia<br><br>
+        <label>Mini-Curriculo: </label><br><textarea style="width: 100%; height: 100px;  " class="txtarea"></textarea>
+    </fieldset><br><br>
+        <div align="center">
+        <button class="button1" onclick="">Enviar</button>   <button class="button2">Limpar</button>
+        </div>
+</body>
+</html>
